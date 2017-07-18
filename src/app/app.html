@@ -8,16 +8,9 @@
 
   <ion-content padding>
     <ion-list>
-      <ion-list-header>{{labels.profile}}</ion-list-header>
-      <ion-item (click)="changeRoot('customer')">
-        <ion-label>Ugur Ayan</ion-label>
-        <i class="fa fa-user-circle-o" aria-hidden="true" item-start></i>
-      </ion-item>
-      <ion-item (click)="changeRoot('provider')">
-        <ion-label>SmartUpCode</ion-label>
-        <i class="fa fa-building-o" aria-hidden="true" item-start></i>
-      </ion-item>
+      <button ion-item (click)="changeRoot(1)">Root 1</button>
+      <button ion-item (Click)="changeRoot(2)">Root 2</button>
     </ion-list>
   </ion-content>
 </ion-menu>
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-nav [root]="rootPage"  #content swipeBackEnabled="false"></ion-nav>
