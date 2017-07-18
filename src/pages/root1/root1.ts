@@ -4,13 +4,6 @@ import {HomePage} from '../home/home';
 import {ContactPage} from '../contact/contact';
 import {AboutPage} from '../about/about';
 
-/**
- * Generated class for the Root1Page page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-
 @Component({
   selector: 'page-root1',
   templateUrl: 'root1.html',

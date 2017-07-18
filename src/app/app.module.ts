@@ -6,12 +6,11 @@ import { MyApp } from './app.component';
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {Root1Page} from '../pages/root1/root1';
-import {Root2Page} from '../pages/root2/root2';
+import { Root1Page } from '../pages/root1/root1';
+import { Root2Page } from '../pages/root2/root2';
 
 @NgModule({
   declarations: [
@@ -20,8 +19,7 @@ import {Root2Page} from '../pages/root2/root2';
     ContactPage,
     HomePage,
     Root1Page,
-    Root2Page,
-    TabsPage
+    Root2Page
   ],
   imports: [
     BrowserModule,
@@ -34,8 +32,7 @@ import {Root2Page} from '../pages/root2/root2';
     ContactPage,
     HomePage,
     Root1Page,
-    Root2Page,
-    TabsPage
+    Root2Page
   ],
   providers: [
     StatusBar,

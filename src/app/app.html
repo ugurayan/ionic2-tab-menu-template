@@ -8,8 +8,10 @@
 
   <ion-content padding>
     <ion-list>
-      <button ion-item (click)="changeRoot(1)">Root 1</button>
-      <button ion-item (Click)="changeRoot(2)">Root 2</button>
+      <button (click)="changeRoot('Root1')" ion-item >Root 1</button>
+    </ion-list>
+    <ion-list>
+      <button (Click)="changeRoot('Root2')" ion-item >Root 2</button>
     </ion-list>
   </ion-content>
 </ion-menu>
